@@ -1,0 +1,78 @@
+header{
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 1200px;
+  background-size: cover;
+  border-radius: 500px;
+  /*border: 2px outset #ff6550;*/
+  width: 70%;
+  box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.74); /* Sombra do header topzer */
+  -webkit-box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.74);
+  -moz-box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.74);
+	color: #f00;
+  border-bottom: 2px solid #f00;
+  text-align: center;
+  background-image: url("tempestade.gif");
+  font-family:fontetop;
+  text-shadow:
+  0px 0px 5px #f00,
+  0px 0px 7px #f00,
+  0px 0px 1px #f00;
+}
+body{
+	background-image: url("matrix3.gif");
+  cursor: url(eye.png), auto;
+}
+div{
+	display: inline-block;
+}
+img{
+	width: 220px;
+	height: 300px;
+	border-radius: 80px;
+}
+figcaption{
+	color: #fff;
+  text-align: center;	
+  font-family:fontetop;
+}
+@font-face{
+  font-family: fontetop;
+  src: url("Spotlight.otf");
+  font-weight: 300px;
+}
+footer{
+	position:fixed;
+    bottom:0;
+    right: 0;
+    left: 0;
+    width:1450px;
+    color: #f00;
+    border-top: 2px solid #f00;
+    text-align: center;
+    background-image: url("hacker3.jpg");
+    font-family: fontetop;
+}
+section{
+
+}
+figure{
+	display: inline-block;
+	margin: 100px;
+  border: solid 1px #000;
+  border-radius:80px;
+  background-image: url("tempestade.gif"); /*matrix4.gif antigo codigo*/
+  padding: 5px;
+}
+.estrutura{
+  text-align: center;
+}
+.a{
+  text-align: center
+}
+.link{
+  text-decoration: none;
+}
+
+
+
